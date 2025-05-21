@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>nana html</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    ScrollReveal().reveal('.w3-card-4', {
+      delay: 200,
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      reset: false,
+    });
+  });
+</script>
+  <style>
+    body, h1, h2, h3, h4, h5 {
+      font-family: "Raleway", sans-serif;
+      color: white;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    a {
+      color: MediumAquamarine;
+    }
+
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: black;
+}
+
+    @keyframes slideInScale {
+      0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.8);
+      }
+      50% {
+        opacity: 0.5;
+        transform: translateY(20px) scale(1.05);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .header-fade-in {
+      animation: slideInScale 1.5s ease-out;
+    }
+
+    header {
+      background: linear-gradient(to right, MediumAquamarine, #004f3a);
+      color: white;
+      border-radius: 10px;
+      padding: 40px;
+    }
+
+    .nav-bar {
+      background-color: #111;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .nav-bar a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .nav-bar a:hover {
+      background-color: MediumAquamarine;
+      color: black;
+    }
+
+    .nav-bar a.active {
+      background-color: MediumAquamarine;
+      color: black;
+    }
+
+    .w3-card, .w3-card-4 {
+      background-color: #222;
+      color: white;
+    }
+
+    .w3-container {
+      color: white;
+    }
+
+    .w3-ul.w3-white {
+      background-color: #222;
+      color: white;
+    }
+
+    .w3-tag {
+      background-color: MediumAquamarine !important;
+      color: black !important;
+    }
+
+    footer {
+      background-color: MediumAquamarine !important;
+      color: black;
+    }
+
+    footer a {
+      color: black;
+    }
+
+    .w3-button.w3-black {
+      background-color: black;
+      color: white;
+    }
+
+    .w3-button.w3-black:hover {
+      background-color: MediumAquamarine;
+      color: black;
+    }
+
+    .w3-white {
+      background-color: #222 !important;
+      color: white !important;
+    }
+
+    .w3-hoverable li:hover {
+      background-color: MediumAquamarine;
+      color: black;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+
+<!-- Navigation Bar -->
+<div class="nav-bar">
+  <a href="#about-me" class="active">About Me</a>
+  <a href="#my-introduction">Introduction</a>
+  <a href="#food-hunting">Food Hunting</a>
+  <a href="#tags">Tags</a>
+  <a href="#my-biodata">My Biodata</a>
+  <a href="#travel-experience">Travel Experience</a>
+  <a href="#lazy-sunday">Lazy Sunday</a>
+  <a href="#happy-mothers-day">Happy Mother's Day</a>
+</div>
+
+<!-- Content Container -->
+<div class="w3-content" style="max-width:1400px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-32 header-fade-in"> 
+    <h1><b>Hi All My Readers!</b></h1>
+    <p>Welcome to the blog of Aezriana Azizi</p>
+  </header>
+
+  <!-- Audio Player -->
+  <audio controls autoplay>
+    <source src="break.ogg" type="audio/ogg">
+    <source src="break.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Grid -->
+  <div class="w3-row">
+
+    <!-- Blog Section -->
+    <div class="w3-col l8 s12" id="about-me">
+
+      <!-- Blog Entry 1 -->
+      <div class="w3-card-4 w3-margin w3-white" id="my-introduction">
+        <div class="w3-container">
+          <h3><b>About Me</b></h3>
+          <h5>My happiest day, <span class="w3-opacity">December 7, 2024</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>Today, I celebrated my birthday by the ocean, and it couldn’t have been more perfect—sunshine on my skin, waves crashing nearby, and cake shared with people I love. There’s something about the beach that makes everything feel calm and full of possibility. I kept it simple, soaking in the beauty of the moment and feeling so grateful for another year of life, laughter, and little joys. Here’s to more sunsets, more growth, and more reasons to smile.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog Entry 2 -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3><b>My Introduction</b></h3>
+          <h5>A day in my life, <span class="w3-opacity">April 2, 2024</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>Being a student at UiTM Merbok in Sungai Petani, Kedah, has been a journey full of ups and downs. The campus is peaceful, surrounded by nature, and it’s become a second home to me. Between juggling classes, assignments, and making time for friends, I’ve learned a lot—not just from books, but about myself too. It’s not always easy, but every experience here is helping me grow, step by step.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog Entry 3 -->
+      <div class="w3-card-4 w3-margin w3-white" id="travel-experience">
+        <div class="w3-container">
+          <h3><b>My Travel Experience</b></h3>
+          <h5>Exploring Kuala Lumpur, <span class="w3-opacity">August 15, 2023</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>I just got back from a short but sweet trip to Kuala Lumpur, and it was everything I needed. The highlight, of course, was reuniting with my boyfriend after some time apart. We spent our days exploring the city, going on spontaneous food hunts, and trying everything from street snacks to cozy café meals. Every moment felt special whether we were walking through bustling night markets or just sitting and talking over coffee. This trip reminded me how much the little things matter when you're with the right person.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog Entry 4 -->
+      <div class="w3-card-4 w3-margin w3-white" id="lazy-sunday">
+        <div class="w3-container">
+          <h3><b>A Lazy Sunday</b></h3>
+          <h5>Just Me and My Thoughts, <span class="w3-opacity">February 18, 2024</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>Sometimes the best days are the quiet ones. I stayed in bed late, caught up on my favorite K-dramas, and ordered in some comfort food. No rush, no plans just being present in the moment. Self-care isn’t always about doing something big it’s about allowing yourself to slow down and breathe.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog Entry 5 -->
+      <div class="w3-card-4 w3-margin w3-white" id="happy-mothers-day">
+        <div class="w3-container">
+          <h3><b>Happy Mother's Day</b></h3>
+          <h5>Cherishing My Birth Giver, <span class="w3-opacity">May 12, 2024</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>Today we celebrated the most important woman in my life—my mom. I surprised her with flowers, a handmade card, and a special lunch at her favorite restaurant. We laughed, reminisced, and shared stories over delicious food. Seeing her smile made me realize how much she’s done for us and continues to do. It was a simple but heartfelt day, and I’m forever grateful for her love and strength. Happy Mother’s Day, My Momster!</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog Entry 6 -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3><b>Food Hunting Experience</b></h3>
+          <h5>A tasty day out, <span class="w3-opacity">March 10, 2024</span></h5>
+        </div>
+        <div class="w3-container">
+          <p>This weekend, I went on a spontaneous food hunting adventure with my closest friends. We visited three different places—each one a big festival and viral food place. From Fantastic Food Fest to Kieda Creape House and Nasi Lemak Burung Hantu, every stop was worth the drive. The highlight was a viral crepe and viral nasi lemak found only in Kuala Lumpur and Pulau Pinang. These moments remind me how food connects us and creates lasting memories. Can’t wait to plan the next one!</p>
+        </div>
+      </div>
+      <hr>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="w3-col l4" id="food-hunting">
+
+      <!-- Biodata Card -->
+      <div class="w3-card w3-margin w3-margin-top" id="my-biodata">
+        <img src="nanaaa.jpg" alt="profile" style="width:100%">
+        <div class="w3-container">
+          <h4><b>My Biodata</b></h4>
+          <p>Name: Aezriana Binti Azizi <br> Age: 21 years old <br> City: Kangar, Perlis <br> Hobby: Sleeping, Food Hunting and Travelling</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Food Hunting Places -->
+      <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding">
+          <h4>My Recent Food Hunting Place</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+<a href="https://www.suki-ya.com/" target="_blank">
+            <img src="kiya.jpg" alt="Sukiya Hotpot" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">Sukiya Hotpot & Shabu Shabu</span><br>
+            <span>IOI Mall Putrajaya</span>
+
+          </li>
+          <li class="w3-padding-16">
+<a href="https://www.instagram.com/hot_bird_malaysia/?hl=en" target="_blank">
+            <img src="hotbird.jpg" alt="Hot Bird" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">Hot Bird</span><br>
+            <span>Subang Jaya</span>
+          </li> 
+          <li class="w3-padding-16">
+<a href="https://yakinikukuro.com/" target="_blank">
+            <img src="kuro.jpg" alt="Yakiniku Kuro" class="w3-left w3-margin-right" style="width:30px">
+            <span class="w3-large">Yakiniku Kuro</span><br>
+            <span>Sunway Pyramid</span>
+</a>
+          </li>   
+        </ul>
+      </div>
+      <hr> 
+
+      <!-- Tags -->
+      <div class="w3-card w3-margin" id="tags">
+        <div class="w3-container w3-padding">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container">
+          <p>
+            <span class="w3-tag w3-margin-bottom">Travel</span>
+            <span class="w3-tag w3-margin-bottom">Food Hunting</span>
+            <span class="w3-tag w3-margin-bottom">London</span>
+            <span class="w3-tag w3-margin-bottom">IKEA</span>
+            <span class="w3-tag w3-margin-bottom">NORWAY</span>
+            <span class="w3-tag w3-margin-bottom">DIY</span>
+            <span class="w3-tag w3-margin-bottom">Ideas</span>
+            <span class="w3-tag w3-margin-bottom">Baby</span>
+            <span class="w3-tag w3-margin-bottom">Family</span>
+            <span class="w3-tag w3-margin-bottom">News</span>
+            <span class="w3-tag w3-margin-bottom">Clothing</span>
+            <span class="w3-tag w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-margin-bottom">Sports</span>
+            <span class="w3-tag w3-margin-bottom">Games</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-margin-top">
+    <a href="https://www.instagram.com/yr0naa_/#" target="_blank">
+      <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Instagram</button>
+    </a>
+    <a href="https://www.tiktok.com/search?q=yrxnaa&t=1746526863218" target="_blank">
+      <button class="w3-button w3-black w3-padding-large w3-margin-bottom">TikTok</button>
+    </a>
+    <p>More Information visit <a href="https://wa.me/qr/36UOW2ZNEHY3L1" target="_blank">Yrxnaa Whatsapp</a></p>
+  </footer>
+
+<script>
+  const canvas = document.getElementById('stars');
+  const ctx = canvas.getContext('2d');
+
+  let stars = [];
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+
+  function createStars(count) {
+    stars = [];
+    for (let i = 0; i < count; i++) {
+      stars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        radius: Math.random() * 1.2,
+        alpha: Math.random(),
+        delta: Math.random() * 0.02
+      });
+    }
+  }
+
+  function drawStars() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = 'white';
+    for (let star of stars) {
+      ctx.globalAlpha = star.alpha;
+      ctx.beginPath();
+      ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+      ctx.fill();
+
+      star.alpha += star.delta;
+      if (star.alpha <= 0 || star.alpha >= 1) {
+        star.delta = -star.delta;
+      }
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(drawStars);
+  }
+
+  createStars(150);  // You can increase for more stars
+  drawStars();
+</script>
+
+</body>
+</html>
+
